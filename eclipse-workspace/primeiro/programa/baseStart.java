@@ -6,10 +6,10 @@ public class baseStart {
 		System.out.println("Olá de novo Mundo, fazendo novo commit!!");
 		System.out.println("Qualquer coisa !");
 		
-		private String nome = "Progamador BR";
-		private int idade = 40;
+	String nome = "Progamador BR";
+	int idade = 40;
 
-		System.out.println(nome + " tem " + idade + " anos ");
+		System.out.println(nome + " tem " + idade + " anos !");
 	}
 
 }
