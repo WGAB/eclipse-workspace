@@ -1,28 +1,50 @@
 package cursojava.executavel;
-import java.lang.*;
+import javax.swing.JOptionPane;
 
 public class PrimeiroProgramaJava {
-	public static void main(String[] args) {
-
-	double[] valores = new double[5];
+	public static void main(String[] args) throws Exception {
 		
-	valores [0] = 0.1;
-	valores [1] = 0.5;
-	valores [2] = 0.7;
-	valores [3] = 0.9;
-	valores [4] = 2.1;
+		/* String[] opcoes = new String[] {
+				"Dragon Ball Z",
+				"Skyrim",
+				"The Walking Dead",
+				"Project Zomboid",
+				"Sair"
+				
+		};
+		int opcaoEscolhida = 0;
+		while(opcaoEscolhida != 4 ) {
+			opcaoEscolhida = JOptionPane.showOptionDialog(
+					null,
+					"O que você deseja Assitir? ", 
+					"DevMídia", 
+					JOptionPane.DEFAULT_OPTION, 
+					JOptionPane.QUESTION_MESSAGE, 
+					null, 
+					opcoes, 
+					0
+					);
+			
+			// System.out.println("Opção escolhida " + opcaoEscolhida);
+			if (opcaoEscolhida != 4) {
+				String mensagem = "Você assistiu " + opcoes[opcaoEscolhida];
+				JOptionPane.showMessageDialog(null, mensagem); */
 		
-	// Como mostrar todos os elementos do Array?
-for (double elemento: valores) {
-	System.out.println(elemento);
-}
-
-	// Como somar todos os elementos?
-double total = 0;
-for (int i = 0; i < valores.length; i++) {
-	total += valores[i];
-}
-System.out.println("O total é " + total);
-
+		int contador = 299;
+		
+		while (contador >= 300) {
+			System.out.println(contador);
+			contador -= 1; 
+			
+		}
+		
+/*		do {
+			System.out.println(contador);
+			contador --;
+		} while (contador >= 300); */
+		
+			}
+		
 	}
-}
+		
+
